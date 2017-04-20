@@ -5943,7 +5943,8 @@ a.bg-inverse:hover {
   color: #fff !important; }
 
 .text-muted {
-  color: #636c72 !important; }
+/*  color: #636c72 !important; }*/
+  color: #c8ced2 !important; }
 
 a.text-muted:focus,
 a.text-muted:hover {

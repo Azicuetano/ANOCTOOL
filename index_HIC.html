@@ -15,14 +15,7 @@
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <a class="btn navbar-btn btn-secondary mx-1 px-2" href="#">NOCs info
-          <br>
-        </a>
-        <a class="btn navbar-btn btn-secondary mx-1 px-2" href="NOC.html">Create a new NOC</a>
-        <a class="btn navbar-btn btn-secondary mx-1 px-2" href="member.html">Create a new Member
-          <br>
-        </a>
-        <a class="btn navbar-btn btn-secondary mx-1 px-2" href="tools.html">Tools</a>
+        <a class="btn navbar-btn btn-secondary mx-1 px-2" href="tools.html">Página de inicio</a>
       </div>
     </div>
   </nav>
@@ -71,6 +64,7 @@
             <div class="form-group"><label>Término de búsqueda en contenido:</label>
               <input type="text" class="form-control" placeholder="Text">
             </div>
+            <div class="form-group"><label>Tipo de Producto</label><select class="form-control"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></div>
           </form>
         </div>
         <div class="col-md-3">
@@ -106,8 +100,8 @@
               <tr class="bg-primary text-white">
                 <th>COMPETIDOR</th>
                 <th>nº Productos</th>
-                <th>Productos Nuevos</th>
-                <th>Productos Eliminados</th>
+                <th>Nuevos</th>
+                <th>Descatalogados</th>
               </tr>
             </thead>
             <tbody>
@@ -139,6 +133,76 @@
                   <br>
                 </td>
               </tr>
+              <tr>
+                <td class="text-primary">CHICCO</td>
+                <td class="text-warning">147 (-10)</td>
+                <td class="text-muted"> (+0)
+                  <br>
+                </td>
+                <td class="text-warning">(-10)
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td class="bg-faded text-primary">MAM</td>
+                <td class="bg-faded text-muted">18 (±0)</td>
+                <td class="bg-faded text-muted"> (+0)
+                  <br>
+                </td>
+                <td class="bg-faded text-muted">(-0)
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-primary">DR. BROWN'S</td>
+                <td class="text-warning">23 (-1)</td>
+                <td class="text-success"> (+1)
+                  <br>
+                </td>
+                <td class="text-warning">(-2)
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td class="bg-faded text-primary">TOMMEE TIPPEE</td>
+                <td class="bg-faded text-success">41 (+6)</td>
+                <td class="bg-faded text-success"> (+6)
+                  <br>
+                </td>
+                <td class="bg-faded text-muted">(-0)
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-primary">NUBY</td>
+                <td class="text-muted">22 (±0)</td>
+                <td class="text-success"> (+1)
+                  <br>
+                </td>
+                <td class="text-warning">(-1)
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td class="bg-faded text-primary">PIGEON</td>
+                <td class="bg-faded text-warning">15 (-5)</td>
+                <td class="bg-faded text-muted"> (+0)
+                  <br>
+                </td>
+                <td class="bg-faded text-warning">(-5)
+                  <br>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-primary">BEABA</td>
+                <td class="text-success">35 (+2)</td>
+                <td class="text-success"> (+2)
+                  <br>
+                </td>
+                <td class="text-muted">(-0)
+                  <br>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -146,123 +210,6 @@
       <div class="row">
         <div class="col-md-12">
           <hr class=""> </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-12">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <p class="lead">768 NOCs Members&nbsp;</p>
-        </div>
-        <div class="col-md-6 text-right">
-          <a href="#" class="btn btn-success">Create a new Member</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <table class="table">
-            <thead>
-              <tr class="bg-primary text-white">
-                <th>NOC</th>
-                <th>Name</th>
-                <th>Ocupation</th>
-                <th>Birthday</th>
-                <th>Election</th>
-                <th>Re-election(s)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="bg-faded text-primary">ALLEMAGNE</td>
-                <td class="bg-faded text-primary">Alfons HÖRMANN</td>
-                <td class="bg-faded">President</td>
-                <td class="bg-faded">06/09/1960</td>
-                <td class="bg-faded">07/12/2013</td>
-                <td class="bg-faded">06/12/2014</td>
-              </tr>
-              <tr>
-                <td class="text-muted">CROATIA</td>
-                <td class="text-muted">Zlatko MATESA</td>
-                <td class="text-muted">Secretary General</td>
-                <td class="text-muted">17/06/1949</td>
-                <td class="text-muted">22/10/2002</td>
-                <td class="text-muted">22/10/2004,&nbsp;
-                  <br>22/10/2008,&nbsp;
-                  <br>13/11/2012,&nbsp;
-                  <br>06/10/2016</td>
-              </tr>
-              <tr>
-                <td class="bg-faded text-primary">ALLEMAGNE</td>
-                <td class="bg-faded text-primary">Michael VESPER</td>
-                <td class="bg-faded">Director General</td>
-                <td class="bg-faded">06/04/1952</td>
-                <td class="bg-faded">01/10/2006</td>
-                <td class="bg-faded">04/12/2010</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <p class="lead text-danger">768 NOCs Members <b>(NO IMPLEMENTAR ESTA SECCIÓN)</b></p>
-        </div>
-        <div class="col-md-6 text-right">
-          <a href="#" class="btn btn-success">Create a new Member</a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <table class="table">
-            <thead>
-              <tr class="bg-primary text-white">
-                <th>NOC</th>
-                <th>Name</th>
-                <th>Surname</th>
-                <th>Ocupation</th>
-                <th>Mandates</th>
-                <th>Update date
-                  <br>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="bg-faded text-primary">ALLEMAGNE</td>
-                <td class="bg-faded text-primary">Michael</td>
-                <td class="bg-faded text-primary">VESPER</td>
-                <td class="bg-faded">Directeur Général
-                  <br>Directeur Général</td>
-                <td class="bg-faded">04/12/2010 -
-                  <br>01/10/2006 - 03/12/2010</td>
-                <td class="bg-faded">29/05/2012</td>
-              </tr>
-              <tr>
-                <td class="text-muted">ALLEMAGNE</td>
-                <td class="text-muted">Alfons</td>
-                <td class="text-muted">HÖRMANN</td>
-                <td class="text-muted">Président
-                  <br>Président</td>
-                <td class="text-muted">06/12/2014 -
-                  <br>07/12/2013 - 05/12/2014</td>
-                <td class="text-muted">09/01/2015</td>
-              </tr>
-              <tr>
-                <td class="bg-faded text-primary">ALLEMAGNE</td>
-                <td class="bg-faded text-primary">Thomas</td>
-                <td class="bg-faded text-primary">BACH</td>
-                <td class="bg-faded">Président</td>
-                <td class="bg-faded">20/05/2006 - 15/09/2013</td>
-                <td class="bg-faded">16/09/2013</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
       </div>
     </div>
   </div>

@@ -9,13 +9,20 @@
 
 <body>
   <nav class="navbar navbar-expand-md bg-primary navbar-light">
-    <div class="container"> <a class="navbar-brand text-white" href="#">ANOC NOCs Management<br></a> <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-               </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent"> <a class="btn navbar-btn btn-secondary mx-1 px-2" href="#">NOCs info<br></a><a class="btn navbar-btn btn-secondary mx-1 px-2" href="NOC.html">Create a new NOC</a><a class="btn navbar-btn btn-secondary mx-1 px-2" href="member.html">Create a new Member<br></a>
-        <a
-          class="btn navbar-btn btn-secondary mx-1 px-2" href="tools.html">Tools</a>
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">SUAVINEX IC Tool
+        <br>
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <a class="btn navbar-btn btn-secondary mx-1 px-2" href="#">NOCs info
+          <br>
+        </a>
+        <a class="btn navbar-btn btn-secondary mx-1 px-2" href="NOC.html">Create a new NOC</a>
+        <a class="btn navbar-btn btn-secondary mx-1 px-2" href="member.html">Create a new Member
+          <br>
+        </a>
+        <a class="btn navbar-btn btn-secondary mx-1 px-2" href="tools.html">Tools</a>
       </div>
     </div>
   </nav>
@@ -23,7 +30,60 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="">ANOC data base information</h1>
+          <h1 class="">Buscador de productos</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr class=""> </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead">Selecciona los filtros de búsqueda:</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <form class="">
+            <div class="form-group"><label>Competidor:<br></label><select class="form-control"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></div>
+            <div class="form-group"><label>Categoría:</label><select class="form-control"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></div>
+            <div class="form-group"><label>Material:</label><select class="form-control"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></div>
+          </form>
+        </div>
+        <div class="col-md-3">
+          <form class="">
+            <div class="form-group"><label>Fecha de indexación:</label><select class="form-control"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select></div>
+          </form>
+          <form class="">
+            <div class="form-group"><label>Precio mínimo:</label>
+              <input type="text" class="form-control" placeholder="Text">
+            </div>
+            <div class="form-group"><label>Precio máximo:</label>
+              <input type="text" class="form-control" placeholder="Text">
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3">
+          <form class="">
+            <div class="form-group"><label>Término de búsqueda en título:</label>
+              <input type="text" class="form-control" placeholder="Text">
+            </div>
+            <div class="form-group"><label>Término de búsqueda en contenido:</label>
+              <input type="text" class="form-control" placeholder="Text">
+            </div>
+          </form>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="btn btn-primary px-5 my-4">BUSCAR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">Competidores</h1>
         </div>
       </div>
       <div class="row">
@@ -32,75 +92,52 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <p class="lead">Filter the list of results</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2">
-          <div class="btn-group"> <button class="btn dropdown-toggle btn-secondary" data-toggle="dropdown"> Dropdown </button>
-            <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
-              <div class="dropdown-divider"></div> <a class="dropdown-item" href="#">Separated link</a> </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="btn-group"> <button class="btn dropdown-toggle btn-secondary" data-toggle="dropdown"> Dropdown </button>
-            <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
-              <div class="dropdown-divider"></div> <a class="dropdown-item" href="#">Separated link</a> </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="btn-group"> <button class="btn dropdown-toggle btn-secondary" data-toggle="dropdown"> Dropdown </button>
-            <div class="dropdown-menu"> <a class="dropdown-item" href="#">Action</a>
-              <div class="dropdown-divider"></div> <a class="dropdown-item" href="#">Separated link</a> </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <form class="">
-            <div class="form-group"> <input type="email" class="form-control" placeholder="Enter email"> </div>
-          </form>
-        </div>
-        <div class="col-md-2 text-right"><a href="#" class="btn btn-primary">Search</a></div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
         <div class="col-md-6">
-          <p class="lead text-left my-0 py-4">206 National Olympic Committes</p>
+          <p class="lead text-left my-0 py-4">Indexación realizada el 18/07/2017</p>
         </div>
-        <div class="col-md-6 text-right py-4"><a href="#" class="btn btn-success">Create a new NOC</a></div>
+        <div class="col-md-6 text-right py-4">
+          <a href="#" class="btn btn-success">Create a new NOC</a>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-12">
           <table class="table">
             <thead>
               <tr class="bg-primary text-white">
-                <th>CNO</th>
-                <th>Cont.</th>
-                <th>Président</th>
-                <th>Secrétaire général</th>
+                <th>COMPETIDOR</th>
+                <th>nº Productos</th>
+                <th>Productos Nuevos</th>
+                <th>Productos Eliminados</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="bg-faded"><b><span style="font-weight: normal;" class="text-primary">ALLEMAGNE</span></b></td>
-                <td class="bg-faded">EU</td>
-                <td class="bg-faded text-primary">M. Alfons HÖRMANN<br><i class="text-warning">Election: 07/12/2013<br>Re-election(s):06/12/2014</i></td>
-                <td class="bg-faded text-primary">Michael VESPER<br><i class="text-warning">Election:01/10/2006<br>Re-election(s):04/12/2010</i></td>
+                <td class="bg-faded"><b><span style="font-weight: normal;" class="text-primary">AVENT</span></b></td>
+                <td class="bg-faded text-success">86 (+3)</td>
+                <td class="bg-faded text-success">(+5)
+                  <br>
+                </td>
+                <td class="bg-faded text-warning">(-2)
+                  <br>
+                </td>
               </tr>
               <tr>
-                <td class="text-muted">ANDORRE</td>
-                <td class="text-muted">EU</td>
-                <td class="text-muted">M. Jaume MARTÍ MANDICÓ<br><i class="text-muted">Election: 19/12/2002<br>Ré-élection(s):25/01/2017, 30/01/2013, 19/12/2008, 19/12/2004</i></td>
-                <td class="text-muted">Josep Antoni GUERRA ALVAREZ<br><i class="text-muted">Election: 25/01/2017</i><i class="text-info"></i></td>
+                <td class="text-primary">MEDELA</td>
+                <td class="text-warning">25 (-2)</td>
+                <td class="text-muted">(0)
+                  <br>
+                </td>
+                <td class="text-warning">(-2)<i class="text-info"></i></td>
               </tr>
               <tr>
-                <td class="bg-faded text-primary">ALBANIE</td>
-                <td class="bg-faded">EU</td>
-                <td class="bg-faded text-primary"> M. Viron BEZHANI<br><i class="text-warning">Election: 20/09/2013</i></td>
-                <td class="bg-faded text-primary">Stavri BELLO<br><i class="text-warning">Election: 01/01/1997<br>Re-election(s):20/09/2013, 01/07/2009</i></td>
+                <td class="bg-faded text-primary">NUK</td>
+                <td class="bg-faded text-muted">65 (±0)</td>
+                <td class="bg-faded text-success"> (+3)
+                  <br>
+                </td>
+                <td class="bg-faded text-warning">(-3)
+                  <br>
+                </td>
               </tr>
             </tbody>
           </table>
@@ -108,8 +145,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <hr class="">
-        </div>
+          <hr class=""> </div>
       </div>
     </div>
   </div>
@@ -119,7 +155,9 @@
         <div class="col-md-6">
           <p class="lead">768 NOCs Members&nbsp;</p>
         </div>
-        <div class="col-md-6 text-right"><a href="#" class="btn btn-success">Create a new Member</a></div>
+        <div class="col-md-6 text-right">
+          <a href="#" class="btn btn-success">Create a new Member</a>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-12">
@@ -149,7 +187,10 @@
                 <td class="text-muted">Secretary General</td>
                 <td class="text-muted">17/06/1949</td>
                 <td class="text-muted">22/10/2002</td>
-                <td class="text-muted">22/10/2004,&nbsp;<br>22/10/2008,&nbsp;<br>13/11/2012,&nbsp;<br>06/10/2016</td>
+                <td class="text-muted">22/10/2004,&nbsp;
+                  <br>22/10/2008,&nbsp;
+                  <br>13/11/2012,&nbsp;
+                  <br>06/10/2016</td>
               </tr>
               <tr>
                 <td class="bg-faded text-primary">ALLEMAGNE</td>
@@ -171,7 +212,9 @@
         <div class="col-md-6">
           <p class="lead text-danger">768 NOCs Members <b>(NO IMPLEMENTAR ESTA SECCIÓN)</b></p>
         </div>
-        <div class="col-md-6 text-right"><a href="#" class="btn btn-success">Create a new Member</a></div>
+        <div class="col-md-6 text-right">
+          <a href="#" class="btn btn-success">Create a new Member</a>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-12">
@@ -183,7 +226,9 @@
                 <th>Surname</th>
                 <th>Ocupation</th>
                 <th>Mandates</th>
-                <th>Update date<br></th>
+                <th>Update date
+                  <br>
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -191,16 +236,20 @@
                 <td class="bg-faded text-primary">ALLEMAGNE</td>
                 <td class="bg-faded text-primary">Michael</td>
                 <td class="bg-faded text-primary">VESPER</td>
-                <td class="bg-faded">Directeur Général<br>Directeur Général</td>
-                <td class="bg-faded">04/12/2010 -<br>01/10/2006 - 03/12/2010</td>
+                <td class="bg-faded">Directeur Général
+                  <br>Directeur Général</td>
+                <td class="bg-faded">04/12/2010 -
+                  <br>01/10/2006 - 03/12/2010</td>
                 <td class="bg-faded">29/05/2012</td>
               </tr>
               <tr>
                 <td class="text-muted">ALLEMAGNE</td>
                 <td class="text-muted">Alfons</td>
                 <td class="text-muted">HÖRMANN</td>
-                <td class="text-muted">Président<br>Président</td>
-                <td class="text-muted">06/12/2014 -<br>07/12/2013 - 05/12/2014</td>
+                <td class="text-muted">Président
+                  <br>Président</td>
+                <td class="text-muted">06/12/2014 -
+                  <br>07/12/2013 - 05/12/2014</td>
                 <td class="text-muted">09/01/2015</td>
               </tr>
               <tr>
